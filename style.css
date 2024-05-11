@@ -1,12 +1,23 @@
  body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 0;
 }
- .header {
+ .header ,
+ .header2 {
     display: flex;
     background-color: #1F2937;
-
+    color: antiquewhite;
+    justify-content: space-between;
+    align-items: stretch;
  }
+  .headerlinks {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    gap: 16px;
+  }
   ul {
     list-style-type: none;
   }
@@ -16,5 +27,45 @@
     text-decoration: none;
     justify-content: space-between;
     margin-left: auto;
+
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .introbutton {
+    background-color: deepskyblue;
+    color: white;
+    font-size: 16px;
+    max-width: fit-content;
+  }
+
+  .middlesect {
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+  .quote {
+    display: flex;
+    background-color: lightsteelblue;
+  }
+  .footer {
+    display: flex;
+    background-color: plum;
+    justify-content: center;
+    margin-top: auto;
+  }
+  .popupcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .popup {
+    display: flex;
+    background-color: lightskyblue;
+    height: 200px;
+    width: 350px;
+
 
   }
