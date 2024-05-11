@@ -7,3 +7,14 @@
     background-color: #1F2937;
 
  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    display: flex;
+    color: lightgray;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: auto;
+
+  }
