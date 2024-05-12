@@ -11,6 +11,8 @@
     color: antiquewhite;
     justify-content: space-between;
     align-items: stretch;
+    padding-left: 100px;
+    padding-right: 100px;
  }
   .headerlinks {
     display: flex;
@@ -43,13 +45,18 @@
 
   .middlesect {
     display: flex;
-    flex-wrap: wrap;
-
-
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
   }
   .quote {
     display: flex;
+    flex-direction: column;
     background-color: lightsteelblue;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
   }
   .footer {
     display: flex;
@@ -63,9 +70,13 @@
   }
   .popup {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: lightskyblue;
     height: 200px;
     width: 350px;
+    margin: 100px;
+    border-radius: 25px;
   }
 
   .left-side {
@@ -75,6 +86,51 @@
   }
 
   .fnaf {
+    align-items: center;
+    justify-content: center;
     background-color: lightskyblue;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    outline: 2px;
+    height: fit-content;
     
+  }
+
+  .quotebody {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: darkslategray;
+  }
+
+  .quoted {
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 100px;
+  }
+  .imagepair {
+    height: 100px;
+    width: 100px;
+    border: 2px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 50px;
+  }
+  .imagescont {
+    display: flex;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .subtext {
+    margin-top: 10px;
+  }
+  .topimg {
+    min-height: 150px;
+    min-width: 200px;
+    background-color: lightslategray;
   }
