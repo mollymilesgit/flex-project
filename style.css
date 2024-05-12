@@ -66,6 +66,15 @@
     background-color: lightskyblue;
     height: 200px;
     width: 350px;
+  }
 
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
+  .fnaf {
+    background-color: lightskyblue;
+    
   }
