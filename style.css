@@ -9,10 +9,17 @@
     display: flex;
     background-color: #1F2937;
     color: antiquewhite;
-    justify-content: space-between;
     align-items: stretch;
     padding-left: 100px;
     padding-right: 100px;
+ }
+ .header {
+    justify-content: space-between;
+
+ }
+ .header2 {
+    padding-bottom: 100px;
+    justify-content: center
  }
   .headerlinks {
     display: flex;
@@ -34,13 +41,18 @@
   .intro {
     display: flex;
     flex-direction: column;
+    padding-right: 20px;
   }
   
   .introbutton {
     background-color: deepskyblue;
     color: white;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: bold;
     max-width: fit-content;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
   }
 
   .middlesect {
@@ -48,7 +60,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
+    margin-top: 50px;
   }
   .quote {
     display: flex;
@@ -60,7 +73,8 @@
   }
   .footer {
     display: flex;
-    background-color: plum;
+    background-color: lightsteelblue;
+    color: white;
     justify-content: center;
     margin-top: auto;
   }
@@ -70,11 +84,13 @@
   }
   .popup {
     display: flex;
+    gap: 24px;
     justify-content: space-between;
+    color: white;
     align-items: center;
-    background-color: lightskyblue;
+    background-color: blue;
     height: 200px;
-    width: 350px;
+    width: 750px;
     margin: 100px;
     border-radius: 25px;
   }
@@ -83,17 +99,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 50px;
+    font-size: 32px;
   }
 
   .fnaf {
     align-items: center;
     justify-content: center;
-    background-color: lightskyblue;
+    background-color: blue;
     border-color: white;
+    border-style: solid;
     color: white;
     border-radius: 5px;
     outline: 2px;
     height: fit-content;
+    padding-left: 5px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 21px;
     
   }
 
@@ -121,16 +144,31 @@
   }
   .imagescont {
     display: flex;
-    flex-wrap: wrap;
-    text-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
   }
   .subtext {
     margin-top: 10px;
+    text-align: center;
+    max-width: 100px;
+    font-size: 16px;
+    color: lightslategray;
+    padding-left: 45px;
+    
   }
   .topimg {
-    min-height: 150px;
-    min-width: 200px;
+    display: flex;
     background-color: lightslategray;
+    text-align: center;
+    align-items: center;
+    justify-content: stretch;
+    align-items: stretch;
+    flex-grow: 1;
+  }
+  .headheader {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .undercontent {
+    font-size: 32px;
   }
